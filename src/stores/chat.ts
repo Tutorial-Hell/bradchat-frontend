@@ -2,7 +2,6 @@ import { defineStore } from "pinia";
 import { ref } from "vue";
 import axios from "axios";
 import { useUserStore } from "./user";
-import { errorMessages } from "vue/compiler-sfc";
 
 interface ChatMessage {
   message: string;
